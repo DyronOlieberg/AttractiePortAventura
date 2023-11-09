@@ -1,0 +1,126 @@
+
+h1 {color: white;}
+  
+  header ul {
+    text-align: right; /* Tekst uitlijnen naar rechts om het menu aan de rechterkant te positioneren. */
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  header ul li {
+    display: inline; /* Menu-items naast elkaar weergeven. */
+    margin-right: 20px; /* Horizontale ruimte tussen menu-items. */
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: pink;
+    
+}
+  
+header {
+  background-color: rgb(42, 116, 176); /* Achtergrondkleur van het header-element. */
+  padding: 10px; /* Wat extra ruimte rondom de header voor visuele scheiding. */
+  background-image: url('afbeelding/zaanstad.jpeg'); /* Achtergrondafbeelding toevoegen */
+  background-size: cover; /* Afbeelding schalen om de hele header te bedekken */
+  text-align: center; /* Tekst centreren in de header */
+  padding: 20px; /* Optionele opvulling voor de header */
+  color: white; /* Tekstkleur aanpassen voor betere leesbaarheid */
+}
+
+
+
+  header a{
+    text-decoration: none; /* Verwijder standaard onderstreping van links. */
+    color: white; /* Tekstkleur van menu-items. */
+  }
+  li:hover{
+    background-color: lightgreen;
+    border-style: none;}
+  
+    
+        section{
+        display: flex;
+        }
+        
+        #links{
+        width: 25%;
+        min-height: 400px;
+        background-color: rgb(214, 204, 223);
+        display: inline-block;
+        margin: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+        }
+
+        #rechts{
+            width: 25%;
+            min-height: 400px;
+            background-color: rgb(214, 204, 223);
+            display: inline-block;
+            margin: 20px 20px 20px 20px;
+            padding: 20px 20px 20px 20px;
+        }
+            #rechts1{
+                width: 25%;
+                min-height: 400px;
+                background-color: rgb(192, 145, 233);
+                display: inline-block;
+                margin: 20px 20px 20px 20px;
+                padding: 20px 20px 20px 20px;
+    
+
+        }
+
+        #rechts2{
+            width: 25%;
+            min-height: 400px;
+            background-color: rgb(90, 182, 222);
+            display: inline-block;
+            margin: 20px 20px 20px 20px;
+            padding: 20px 20px 20px 20px;
+        }
+        footer{
+        min-height: 100px;
+        background-color: rgb(102, 40, 236);
+        clear: left;
+        }
+  
+  
+        .container {
+            display: flex; /* Hiermee maken we de container een flex-container. */
+        }
+        
+        
+        .column {
+            flex: 1; /* Hiermee geven we beide kolommen gelijke flexibiliteit, zodat ze de beschikbare ruimte delen. */
+            padding: 10px; /* Optionele opvullingsstijlen voor kolommen. */
+            border: 1px solid #ccc; /* Optionele randstijlen voor kolommen. */
+            border-color: blue;
+        }
+       
+        
+        body{background-color: blue;}
+        @media only screen and (max-width: 600px)
+         {
+            body{
+                background-color: aqua;}
+               
+            }
+            /* Vermijd stijlen die de afbeeldingen weergeven */
+header img {
+    display: none; /* Verberg de afbeelding */
+}
+.content {
+  width: 100%; /* Pas de breedte aan naar wens */
+  margin: 0 auto; /* Centreer de inhoud */
+}
+
+img {
+  float: right; /* Laat de afbeelding naar rechts zweven */
+  margin: 10px; /* Voeg wat ruimte toe tussen de tekst en de afbeelding */
+}
